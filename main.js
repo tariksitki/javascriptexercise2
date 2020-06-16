@@ -48,7 +48,7 @@ function without_first_end(str) {
 
 
 
-          // Exercise 62    
+          // Exercise 62    (Stringin son 3 rakamini basa gecirme)
 
 
               function right_three(str) {
@@ -82,20 +82,71 @@ function without_first_end(str) {
 
 
 
+              //   Exercise 63    Verilen bir dizenin ortadaki 3 elemanini kullanarak bir dize olusturma 
 
 
-              function right_three(str) {
 
-                if (str.length > 1) {
 
-                  return str.slice(-3) + str.slice(0,-3);
+
+
+              function middle_three(str) {
+
+                if (str.length % 2 != 0) {
+
+                    mid = (str.length + 1) / 2 ;
+
+                    return str.slice(mid - 2, mid + 1);
                   
                 }
 
-                  return str;
+                    return str;
               }
 
-                console.log(right_three("Tarik"));
+
+
+
+                    console.log(middle_three("Tarik"));
+
+                    console.log(middle_three("HTML5"));
+
+                    console.log(middle_three("Exercises"));
+
+                    console.log(middle_three("Tarikcim"));  //  Burada söyle özel bir durum var. Tarikcim da harf adedi 8 oldugundan ortasini alamiyor. Buna bir cözüm bulmaliyiz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           
+
+                  
+                  
+                    
+                    
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+             
                 
               
               
