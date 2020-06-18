@@ -212,14 +212,14 @@ function without_first_end(str) {
                                     if (str.length > 1 && str.charAt(str.length - 1) == "P")
                                     
                                     {
-                                      end_pos--;           // Buradaki -- sondaki harfin okunmamasini komut verir
+                                      end_pos--;           // Buradaki -- sondaki harfin okunmamasini komut verir.
                                       
                                     }
                                       return str.substring(start_pos, end_pos) ;
                                   }
 
                                   
-                                  console.log(nop("PythonP"));
+                                  console.log(nop("PythonP"));   // Sonu P ile bittigi icin sondaki harf -- den dolayi okunmaz.
 
                                   console.log(nop("Python"));
 
