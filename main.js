@@ -224,6 +224,55 @@ function without_first_end(str) {
                                   console.log(nop("Python"));
 
                                   console.log(nop("JavaScript"));
+
+
+
+                                  // Exercise 68      Write a JavaScript program to create a new string taking the first and last n characters from a given string. The string length must be greater or equal to n.
+                                  
+                                  //  Verilen string in bastan ve sondan ikiser karakterini alarak yeni string olusturma
+
+
+
+
+
+                                    function two_string(str,n) {
+
+                                        first_part = str.substring(0,n);
+
+                                        last_part = str.substring(str.length - n);
+
+                                        return first_part + last_part;
+                                      
+                                    }
+
+
+                                    console.log(two_string("JavaScript", 2));
+
+                                    console.log(two_string("JavaScript" , 3));
+
+
+
+                                      //  Exercise 68 selbstgemacht
+
+
+                                    function two_string(str,n) {
+
+                                      first_part = str.substring(0,n);
+
+                                      last_part = str.substring(str.length - n);    //  Burada str.length - 2   normalde bakildigi zaman geriya kalan kisim bas kisim gibi geliyor ama bu bir kalip.
+                                      
+                                      return str.substring = first_part + last_part ;    // Notiz:  Burada return yazarken bir önceki örnekte oldugu gibi direkt return yazip formulü de yazabiliz. Ikinci secenek return str.substring yazmak.
+
+                                    }
+
+
+                                    console.log(two_string("JavaScript" , 4));
+
+                                    console.log(two_string("JavaScript" , 1));     
+                                    
+                                    
+                                    
+                                  
                                   
                                   
 
