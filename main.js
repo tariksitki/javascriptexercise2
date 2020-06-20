@@ -2,23 +2,23 @@
 
 
 
-              // Exercise 60
+                      // Exercise 60
 
 
 
 
-function without_first_end(str) {
+                function without_first_end(str) {
 
 
-    return str.substring(1, str.length - 1);
+                   return str.substring(1, str.length - 1);
 
-  }
+                }
 
-  console.log(without_first_end('JavaScript'));
+                 console.log(without_first_end('JavaScript'));
 
-  console.log(without_first_end('JS'));
+                 console.log(without_first_end('JS'));
 
-  console.log(without_first_end('PHP'));
+                console.log(without_first_end('PHP'));
 
 
 
@@ -339,6 +339,59 @@ function without_first_end(str) {
 
 
                                         console.log(sum_elements_left([10, 11, 12]));
+
+
+
+
+
+
+
+
+
+                                        // Exercise 71 Write a Js Program to check whether 1 appears in first or last position of given array of integers.
+
+                                        //  1 Sayisinin basta yada sonda oldugunu kontrol et
+                                        
+                                        
+
+
+                                        function first_last_1(nums) {
+
+
+                                          var end_pos = nums.length - 1 ;  // Asagida uzun uzun yazmamak icin  tanimladi end_pos u
+
+                                          return nums[0] == 1 || nums[end_pos] == 1 ;    // if condition kurmadan true false calistirdi bu sekilde. 
+                                          
+                                        }
+
+
+                                        console.log(first_last_1([1, 3, 5]));
+
+                                        console.log(first_last_1([1,3,5,1]));
+
+                                        console.log(first_last_1([2,4,6]));
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        
+                                        
+                                        
+
+
+
+
+
+
 
 
                                         
