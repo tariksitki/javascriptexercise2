@@ -374,6 +374,30 @@
 
 
 
+                                            //   Bu formulü yukaridakinin alternatifi oalrak yazdim. Yukarida if condition yok bunda if ile yapildi.
+
+                                        function last(nums) {
+
+                                          var end_pos = nums.length - 1;
+
+                                          var start = nums[0];
+
+                                          if ( start == 1 || end_pos == 1) {
+
+                                            return true;
+                                            
+                                          }
+                                          
+                                            return false;
+                                        }
+
+
+
+                                        console.log(first_last_1([1, 3, 5]));
+
+                                        console.log(first_last_1([1,3,5,1]));
+
+                                        console.log(first_last_1([2,4,6]));
 
 
 
