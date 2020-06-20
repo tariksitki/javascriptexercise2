@@ -427,10 +427,38 @@
                                                 console.log(first_last_same([10,20,30,10]));
 
                                                 console.log(first_last_same([20,20,20]));
-                                                
-                                                
-                                                
 
+
+
+
+                                                    //  Bu yukaridaki koda alternatif olarak yazdigim kod.
+
+
+                                                function first_last_sa(nums) {
+
+                                                  var start = nums[0] ;
+
+                                                  var end  =  nums.length - 1 ;
+
+                                                  if (nums[0] == nums[end]) {        //  if in icerisine if ( start == end ) yazdim calismadi. Bu seklide yazilmasi gerekiyor.  
+
+                                                    return true
+                                                    
+                                                  }
+
+                                                    else    
+                                                    
+                                                        {return false; }
+                                                  
+                                                }
+                                                
+                                                
+                                                
+                                                console.log(first_last_sa([10,20,40]));
+
+                                                console.log(first_last_sa([10,20,30,10]));
+
+                                                console.log(first_last_sa([20,20,20]));
 
 
 
