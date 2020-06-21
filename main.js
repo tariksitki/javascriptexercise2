@@ -467,6 +467,61 @@
 
 
 
+
+
+                                                //  Exercise 73    Write a Js Program to reserve the elements of a given array of integers 
+
+                                                //  Verilen 3 basamakli array i "3 4 5"   " 5 4 3 "  yapmak. Ters cevirme
+
+
+
+                                                function reserve3(array) {
+
+                                                  return array.map(( element, idx, arr ) => arr [(arr.length - 1) - idx]);
+                                                  
+                                                }
+
+                                                console.log(reserve3 ([5,4,3]));
+
+                                                console.log(reserve3 ([1,0,-1]));
+
+                                                console.log(reserve3 ([2,3,1]));
+
+
+
+
+                                                    // Yukaridi koda alternatif olarak yazdim
+
+
+
+                                                function x(nums) {
+
+                                                  var first = nums[0];
+
+                                                  var second = nums[-2];
+
+                                                  var end = nums[-1];
+                                                  
+                                                  return nums[-1] , nums[-2], nums[0] ; 
+
+                                                }
+
+
+
+                                                console.log(reserve3 ([5,4,3]));
+
+                                                console.log(reserve3 ([1,0,-1]));
+
+                                                console.log(reserve3 ([2,3,1]));
+
+                                                
+                                                
+                                                
+
+
+
+
+
                                         
                                         
                                         
