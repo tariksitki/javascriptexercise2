@@ -716,7 +716,7 @@
                                                                                                   
 
 
-                                                                                                                  //  Yukaridaki formül let ile yazildi bu ise var ile                         
+                                                                                                                  //  Yukaridaki formül let ile yazildi bu ise var ile. Ayrica burada nums kullanildi                        
 
 
                                                                                                             function twice34(nums) {
@@ -737,6 +737,61 @@
 
 
 
+
+                                                                                                                 // Exercise 80   To swap the first and last elements of a given array of integers.
+
+                                                                                                                  //   bir array in ilk ve son elemenalarinin yerini degistir
+
+
+
+
+
+
+                                                                                                                  function swap(arra) {
+
+
+                                                                                                                    [arra[0] ,  arra[arra.length - 1] ]  = [ arra[arra.length - 1], arra[0] ];
+
+                                                                                                                    return arra;
+                                                                                                                    
+                                                                                                                  }
+
+
+
+                                                                                                                        console.log(swap([1,2,3,4]));
+
+                                                                                                                        console.log(swap([0,2,1]));
+
+                                                                                                                        console.log(swap([3]));
+
+
+
+
+                                                                                                                          //  Yukaridaki formül arra ile yazildi asagidaki ise nums ile. a ve b yi tanimladik uzun uzun yazmadik                      
+
+                                                                                                                        function swapp(nums) {
+
+                                                                                                                          var a = nums[0];
+
+                                                                                                                          var b = nums[ nums.length - 1 ];
+
+                                                                                                                            a , b =   b , a ;
+
+                                                                                                                          return  nums ;
+
+                                                                                                                        }
+
+
+
+                                                                                                                                                                        
+                                                                                                                        console.log(swapp([1,2,3,4]));
+
+                                                                                                                        console.log(swapp([0,2,1]));
+
+                                                                                                                        console.log(swapp([3]));
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        
 
 
 
