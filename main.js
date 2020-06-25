@@ -676,6 +676,84 @@
                                                               
                                                               
                                                               
+
+
+
+
+
+
+
+
+
+                                                                          // Exercise 79         To test whether a given array of integers contains 30 or 40 twice. The array length should be 0,1, or 2.
+                                                                          
+                                                                          
+                                                                          //                  Array de 2 tane 30 yada 40 olup olmadigini test et
+
+
+
+
+
+                                                                                                function twice3040(arra1) {
+
+                                                                                                  let a = arra1[0],
+
+                                                                                                      b = arra1[1];    //   let in bitiminde ; var
+
+                                                                                                  return ( a === 30 && b === 30 )  || ( a === 40 && b === 40);
+                                                                                                   
+                                                                                                }
+
+
+                                                                                                  console.log(twice3040([30,30]));
+
+                                                                                                  console.log(twice3040([40,40]));
+
+                                                                                                  console.log(twice3040([20,20]));
+
+                                                                                                  console.log(twice3040([30]));
+
+                                                                                                  
+
+
+                                                                                                                  //  Yukaridaki formül let ile yazildi bu ise var ile                         
+
+
+                                                                                                            function twice34(nums) {
+
+                                                                                                                var a = nums[0];
+
+                                                                                                                var b = nums[1];
+
+                                                                                                                return ( a === 30 && b === 30)  || ( a === 40 && b === 40) ;
+                                                                                                              
+                                                                                                            }
+
+
+
+                                                                                                                  console.log(twice34([30,30]));
+
+                                                                                                                  console.log(twice34([40,20]));
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                      
+                                                                                                                  
+
+
+                                                                                                                  
+                                                                                                  
+                                                                                                  
+                                                                                                  
                                                       
 
 
