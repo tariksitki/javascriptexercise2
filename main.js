@@ -789,6 +789,58 @@
                                                                                                                         console.log(swapp([0,2,1]));
 
                                                                                                                         console.log(swapp([3]));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        // Exercise 81       To add two digits of a given positive integer of length two.
+                                                                                                                        
+                                                                                                                        // Verilen iki basamakli yada daha fazla basamakli sayinin rakamlarini toplama
+
+
+
+
+                                                                                                                        function add_two_digits(n) {
+
+                                                                                                                          return n % 10 + Math.floor(n / 10) ; // n % 10 parantez icerisine alindiginda da calisir
+                                                                                                                          
+                                                                                                                        }
+
+
+                                                                                                                        console.log(add_two_digits(25));
+
+                                                                                                                        console.log(add_two_digits(50));
+
+                                                                                                                        console.log(add_two_digits(234));  // Bu formül sadece 2 basamakli rakamlari topluyor. 3 basamakli yada daha fazla oldugunda sadece sondaki rakami ayri degerlendiriyor.Bastaki sayilari tek bir sayi olarak kabul ediyor.
+
+
+
+
+                
+                                                                                                                        
+
+
+                                                                                                                        
+                                                                                                                        
+
+
+
                                                                                                                         
                                                                                                                         
                                                                                                                         
